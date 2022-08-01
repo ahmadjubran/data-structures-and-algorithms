@@ -274,6 +274,7 @@ const extractVowels = (str) => {
   let result = [];
   let vowels = "aeiou";
   let vowelsRemoved = "";
+
   for (let i = 0; i < str.length; i++) {
     if (vowels.includes(str[i])) {
       vowelsRemoved += str[i];
